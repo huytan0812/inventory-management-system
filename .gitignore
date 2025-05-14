@@ -1,0 +1,37 @@
+# === Python / Django ===
+backend/__pycache__/
+backend/*.py[cod]
+backend/env/
+backend/.venv/
+
+# Django migrations
+backend/**/migrations/
+!backend/**/migrations/__init__.py
+
+# PostgreSQL dumps and settings
+*.sql
+*.dump
+*.psql
+*.pgdump
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+# === Node / React ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+frontend/.eslintcache
+
+# === macOS & Windows ===
+.DS_Store
+Thumbs.db
+
+# === IDEs & editors ===
+.vscode/
+.idea/
+*.swp
